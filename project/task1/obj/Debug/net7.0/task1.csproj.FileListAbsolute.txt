@@ -1,0 +1,15 @@
+/workspaces/temp_attestation_module1/project/task1/bin/Debug/net7.0/task1
+/workspaces/temp_attestation_module1/project/task1/bin/Debug/net7.0/task1.deps.json
+/workspaces/temp_attestation_module1/project/task1/bin/Debug/net7.0/task1.runtimeconfig.json
+/workspaces/temp_attestation_module1/project/task1/bin/Debug/net7.0/task1.dll
+/workspaces/temp_attestation_module1/project/task1/bin/Debug/net7.0/task1.pdb
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.csproj.AssemblyReference.cache
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.AssemblyInfoInputs.cache
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.AssemblyInfo.cs
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.csproj.CoreCompileInputs.cache
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.dll
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/refint/task1.dll
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.pdb
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/task1.genruntimeconfig.cache
+/workspaces/temp_attestation_module1/project/task1/obj/Debug/net7.0/ref/task1.dll
