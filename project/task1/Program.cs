@@ -3,20 +3,21 @@
 // Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-string[] GetListOfTruncatedValues(string[] inboundList)
+List<string> GetListOfTruncatedValues(List<string> inboundList)
 {
-    string[] outboundList={};
+    // string[] outboundList={};
+    var outboundList = new List<string>();
     int i = 0;
     foreach(string element in inboundList)
     {
         if (element.Length > 3) continue;
-        outboundList[i] = element;
+        outboundList.Add(element);
         i++;
     }
     return outboundList;
 }
 
-string[] mylist = {"Hello", "2", "world", ":-)"};
+List<string> mylist = ["Hello", "2", "world", ":-)"];
 
 Console.WriteLine(GetListOfTruncatedValues(mylist));
 
