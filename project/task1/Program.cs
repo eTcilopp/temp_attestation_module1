@@ -6,12 +6,9 @@
 List<string> GetListOfShortWords(List<string> inboundList)
 {
     List<string> outboundList = new List<string>();
-    int i = 0;
     foreach(string element in inboundList)
     {
-        if (element.Length > 3) continue;
-        outboundList.Add(element);
-        i++;
+        if (element.Length <= 3) outboundList.Add(element);
     }
     return outboundList;
 }
