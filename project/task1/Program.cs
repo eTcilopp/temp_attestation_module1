@@ -3,10 +3,9 @@
 // Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-List<string> GetListOfTruncatedValues(List<string> inboundList)
+List<string> GetListOfShortWords(List<string> inboundList)
 {
-    // string[] outboundList={};
-    var outboundList = new List<string>();
+    List<string> outboundList = new List<string>();
     int i = 0;
     foreach(string element in inboundList)
     {
@@ -17,7 +16,10 @@ List<string> GetListOfTruncatedValues(List<string> inboundList)
     return outboundList;
 }
 
-List<string> mylist = ["Hello", "2", "world", ":-)"];
+List<string> mylist = new List<string> {"Hello", "2", "world", ":-)"};
 
-Console.WriteLine(GetListOfTruncatedValues(mylist));
+foreach(string word in GetListOfShortWords(mylist))
+{
+    Console.WriteLine(word);
+}
 
